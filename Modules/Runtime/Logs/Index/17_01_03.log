@@ -1,0 +1,336 @@
+[ 2017-01-03T18:02:57+08:00 ] ::1 /hsylglxt/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.017745s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005720s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005894s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000171s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000319s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.088725s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.088882s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.022364s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.022518s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.022079s ]
+INFO: [ app_end ] --END-- [ RunTime:0.022312s ]
+
+[ 2017-01-03T18:02:59+08:00 ] ::1 /hsylglxt/index.php/user/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000940s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002318s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002593s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0062s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0050s ]
+SQL: SELECT `id`,`password` FROM `user` WHERE ( username="huangxuanwei" )  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined offset: 0 D:\PHP\myPHP\hsylglxt\Modules\Index\Controller\UserController.class.php 第 52 行.
+NOTIC: [8] Undefined offset: 0 D:\PHP\myPHP\hsylglxt\Modules\Index\Controller\UserController.class.php 第 59 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001002s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001153s ]
+
+[ 2017-01-03T18:04:11+08:00 ] ::1 /hsylglxt/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000103s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001914s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000904s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001064s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000204s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000384s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018846s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019061s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001809s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001983s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001302s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001464s ]
+
+[ 2017-01-03T18:06:05+08:00 ] ::1 /hsylglxt/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000628s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000828s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000980s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000166s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000313s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010434s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010688s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001061s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001232s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002048s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002351s ]
+
+[ 2017-01-03T18:06:06+08:00 ] ::1 /hsylglxt/index.php/user/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000786s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000899s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001044s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0058s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0051s ]
+SQL: SELECT `id`,`password` FROM `user` WHERE ( username="huangxuanwei" )  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined offset: 0 D:\PHP\myPHP\hsylglxt\Modules\Index\Controller\UserController.class.php 第 52 行.
+NOTIC: [8] Undefined offset: 0 D:\PHP\myPHP\hsylglxt\Modules\Index\Controller\UserController.class.php 第 59 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000963s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001074s ]
+
+[ 2017-01-03T18:06:20+08:00 ] ::1 /hsylglxt/index.php/user/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000726s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001148s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001324s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0054s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0078s ]
+SQL: SELECT `id`,`password` FROM `user` WHERE ( username="zhengqiuhong" )  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001055s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001204s ]
+
+[ 2017-01-03T18:06:20+08:00 ] ::1 /hsylglxt/index.php/index/homepage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001391s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002124s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003631s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000461s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000837s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.084319s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.084618s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000685s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000827s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001412s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001675s ]
+
+[ 2017-01-03T18:06:20+08:00 ] ::1 /hsylglxt/index.php/user/loadmymessage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000071s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001218s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001302s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001598s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0079s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0093s ]
+SQL: SELECT `nickname`,`headImgSrc`,`loveWords` FROM `user` WHERE ( username="zhengqiuhong" )  [ RunTime:0.0014s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001573s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001857s ]
+
+[ 2017-01-03T18:06:20+08:00 ] ::1 /hsylglxt/index.php/set/loadset.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000069s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001165s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001240s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001495s ]
+SQL: SHOW COLUMNS FROM `sets` [ RunTime:0.0098s ]
+SQL: SHOW COLUMNS FROM `sets` [ RunTime:0.0071s ]
+SQL: SHOW COLUMNS FROM `veil` [ RunTime:0.0264s ]
+SQL: SHOW COLUMNS FROM `photographer` [ RunTime:0.0071s ]
+SQL: SHOW COLUMNS FROM `album` [ RunTime:0.0563s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0076s ]
+SQL: SELECT sets.id,`title`,photographer.name,`veilName`,sets.price,`coverImg` FROM `sets` INNER JOIN photographer ON photographer.id=sets.photographerID INNER JOIN veil ON veil.id=sets.veilID   [ RunTime:0.0016s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001563s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001805s ]
+
+[ 2017-01-03T18:06:21+08:00 ] ::1 /hsylglxt/index.php/ad/loadad.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001139s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001455s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001784s ]
+SQL: SHOW COLUMNS FROM `ad` [ RunTime:0.0094s ]
+SQL: SHOW COLUMNS FROM `ad` [ RunTime:0.0053s ]
+SQL: SELECT `img` FROM `ad` WHERE `position` = 'shouye'  [ RunTime:0.1025s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001593s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001821s ]
+
+[ 2017-01-03T18:06:21+08:00 ] ::1 /hsylglxt/index.php/order/loadcollection.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001093s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.032828s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.033139s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0092s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0077s ]
+SQL: SHOW COLUMNS FROM `sets` [ RunTime:0.0079s ]
+SQL: SHOW COLUMNS FROM `veil` [ RunTime:0.0091s ]
+SQL: SHOW COLUMNS FROM `photographer` [ RunTime:0.0071s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0063s ]
+SQL: SHOW COLUMNS FROM `favorite` [ RunTime:0.0095s ]
+SQL: SHOW COLUMNS FROM `album` [ RunTime:0.0095s ]
+SQL: SELECT `title`,`favoriteTime`,`coverImg`,sets.id FROM `sets` INNER JOIN favorite ON sets.id=favorite.setID  WHERE `customerID` = '0'  [ RunTime:0.1298s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000936s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001059s ]
+
+[ 2017-01-03T18:06:31+08:00 ] ::1 /hsylglxt/index.php/set/loadveil.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000088s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001129s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001331s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001545s ]
+SQL: SHOW COLUMNS FROM `sets` [ RunTime:0.0093s ]
+SQL: SHOW COLUMNS FROM `sets` [ RunTime:0.0079s ]
+SQL: SHOW COLUMNS FROM `veil` [ RunTime:0.0079s ]
+SQL: SHOW COLUMNS FROM `photographer` [ RunTime:0.0045s ]
+SQL: SHOW COLUMNS FROM `album` [ RunTime:0.0045s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0061s ]
+NOTIC: [8] Undefined index: veilID D:\PHP\myPHP\hsylglxt\Modules\Index\Controller\SetController.class.php 第 18 行.
+SQL: SELECT * FROM `veil`  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000911s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001026s ]
+
+[ 2017-01-03T18:07:09+08:00 ] ::1 /hsylglxt/index.php/index/homepage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000178s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001644s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001629s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001938s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000266s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000426s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021426s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022086s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001282s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001893s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002582s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003816s ]
+
+[ 2017-01-03T18:07:10+08:00 ] ::1 /hsylglxt/index.php/user/loadmymessage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001098s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001268s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001562s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0085s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0089s ]
+SQL: SELECT `nickname`,`headImgSrc`,`loveWords` FROM `user` WHERE ( username="zhengqiuhong" )  [ RunTime:0.0012s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001502s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001776s ]
+
+[ 2017-01-03T18:07:10+08:00 ] ::1 /hsylglxt/index.php/order/loadcollection.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001045s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001637s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001997s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0077s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0103s ]
+SQL: SHOW COLUMNS FROM `sets` [ RunTime:0.0092s ]
+SQL: SHOW COLUMNS FROM `veil` [ RunTime:0.0091s ]
+SQL: SHOW COLUMNS FROM `photographer` [ RunTime:0.0106s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0076s ]
+SQL: SHOW COLUMNS FROM `favorite` [ RunTime:0.0086s ]
+SQL: SHOW COLUMNS FROM `album` [ RunTime:0.0072s ]
+SQL: SELECT `title`,`favoriteTime`,`coverImg`,sets.id FROM `sets` INNER JOIN favorite ON sets.id=favorite.setID  WHERE `customerID` = '0'  [ RunTime:0.0017s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002643s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002998s ]
+
+[ 2017-01-03T18:07:10+08:00 ] ::1 /hsylglxt/index.php/set/loadset.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001101s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001965s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002230s ]
+SQL: SHOW COLUMNS FROM `sets` [ RunTime:0.0504s ]
+SQL: SHOW COLUMNS FROM `sets` [ RunTime:0.0041s ]
+SQL: SHOW COLUMNS FROM `veil` [ RunTime:0.0084s ]
+SQL: SHOW COLUMNS FROM `photographer` [ RunTime:0.0089s ]
+SQL: SHOW COLUMNS FROM `album` [ RunTime:0.0056s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0042s ]
+SQL: SELECT sets.id,`title`,photographer.name,`veilName`,sets.price,`coverImg` FROM `sets` INNER JOIN photographer ON photographer.id=sets.photographerID INNER JOIN veil ON veil.id=sets.veilID   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002899s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003205s ]
+
+[ 2017-01-03T18:07:10+08:00 ] ::1 /hsylglxt/index.php/ad/loadad.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001163s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001568s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.016790s ]
+SQL: SHOW COLUMNS FROM `ad` [ RunTime:0.0065s ]
+SQL: SHOW COLUMNS FROM `ad` [ RunTime:0.0104s ]
+SQL: SELECT `img` FROM `ad` WHERE `position` = 'shouye'  [ RunTime:0.0028s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002258s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002537s ]
+
+[ 2017-01-03T18:07:11+08:00 ] ::1 /hsylglxt/index.php/set/loadveil.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000662s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001154s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001370s ]
+SQL: SHOW COLUMNS FROM `sets` [ RunTime:0.0055s ]
+SQL: SHOW COLUMNS FROM `sets` [ RunTime:0.0051s ]
+SQL: SHOW COLUMNS FROM `veil` [ RunTime:0.0056s ]
+SQL: SHOW COLUMNS FROM `photographer` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `album` [ RunTime:0.0045s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0049s ]
+NOTIC: [8] Undefined index: veilID D:\PHP\myPHP\hsylglxt\Modules\Index\Controller\SetController.class.php 第 18 行.
+SQL: SELECT * FROM `veil`  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000912s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001028s ]
+
+[ 2017-01-03T18:07:12+08:00 ] ::1 /hsylglxt/index.php/set/loadphotographer.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001545s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000978s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001134s ]
+SQL: SHOW COLUMNS FROM `sets` [ RunTime:0.0095s ]
+SQL: SHOW COLUMNS FROM `sets` [ RunTime:0.0051s ]
+SQL: SHOW COLUMNS FROM `veil` [ RunTime:0.0055s ]
+SQL: SHOW COLUMNS FROM `photographer` [ RunTime:0.0043s ]
+SQL: SHOW COLUMNS FROM `album` [ RunTime:0.0041s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0039s ]
+NOTIC: [8] Undefined index: photographerID D:\PHP\myPHP\hsylglxt\Modules\Index\Controller\SetController.class.php 第 27 行.
+NOTIC: [8] Undefined variable: veilID D:\PHP\myPHP\hsylglxt\Modules\Index\Model\SetsModel.class.php 第 33 行.
+SQL: SELECT * FROM `photographer`  [ RunTime:0.0297s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001493s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001770s ]
+
